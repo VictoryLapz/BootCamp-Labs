@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dice Roller", "Dice Roller.csproj", "{78C50475-8B5C-4D14-87AD-5BE6BD9E5F86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Database", "Student Database.csproj", "{79FDD51C-5CCD-4216-9A68-B156A4A30FA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78C50475-8B5C-4D14-87AD-5BE6BD9E5F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78C50475-8B5C-4D14-87AD-5BE6BD9E5F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78C50475-8B5C-4D14-87AD-5BE6BD9E5F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78C50475-8B5C-4D14-87AD-5BE6BD9E5F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FDD51C-5CCD-4216-9A68-B156A4A30FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FDD51C-5CCD-4216-9A68-B156A4A30FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FDD51C-5CCD-4216-9A68-B156A4A30FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FDD51C-5CCD-4216-9A68-B156A4A30FA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {310F5ADC-6EAF-4944-8A96-5CBC9BABD666}
+		SolutionGuid = {55D630B2-1F88-413F-BBB3-73ED31D307D7}
 	EndGlobalSection
 EndGlobal

@@ -37,7 +37,7 @@ do
     string Response = Console.ReadLine().ToLower();
     if (Response != "y")
     {
-        break; // Exit the loop if user enters anything other than 'Y'
+        break;
     }
 }while (true);
 
