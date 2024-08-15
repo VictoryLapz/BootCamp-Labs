@@ -2,12 +2,25 @@
 
 <h2>Adoption Center</h2>
 
-<form asp-action="Result" method="post">
-
-
-    <div class="form-group">
-        <label for="SelectAnimalType">Animal Breed</label>
-        <input type="text" name="AnimalBreed" />
-
-        <button type="submit">Submit</button>
-</form>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Breed</th>
+        <th>Image</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var animal in Model)
+    {
+        <tr>
+            <td>@animal.Name</td>
+            <td>@animal.Breed</td>
+            <td><img src="@animal.Img" alt="@animal.Name" width="100" /></td>
+            <td>
+                <form asp-action="Adopt" method="post">
+                    <input type="hidden" name="id" value="@animal.Id" />
+                    <button type="submit">Adopt</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
