@@ -1,0 +1,30 @@
+.Completed {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .Complete-Button {
+    color: #ff69b4;
+    background-color: white;
+    border-color: hotpink;
+    border-width: 0.5mm;
+  }
+
+
+  .Priority{
+        color: black;
+  }
+
+  .Add-Button{
+    background-color:hotpink;
+    color:white
+  }
+
+  .remove-button {
+    background-color: transparent; 
+    color: black;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
